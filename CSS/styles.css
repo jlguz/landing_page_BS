@@ -1,0 +1,120 @@
+/* navbar */
+
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+    align-self: center;
+    justify-content: space-between;
+}
+
+
+/* estilos generales*/
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background-color: #0f0f0f11;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-pricipal {
+    padding: 3rem;
+}
+
+.hero-img-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-pricipal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+
+/*about me*/
+
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/*Experiencia*/
+
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 3;
+}
+
+
+/* adaptable rsponsivo*/
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-img {
+        max-width: 600px;
+    }
+}
